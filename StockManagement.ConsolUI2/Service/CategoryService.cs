@@ -38,7 +38,8 @@ namespace StockManagement.ConsolUI2.Service
         }
         public void Add(Category category)
         {
-            List<Category> categories = categoryData.Add(category);
+            categoryData.Add(category);
+            Console.WriteLine($"Kategori eklendi: {category} ");
 
         }
 
