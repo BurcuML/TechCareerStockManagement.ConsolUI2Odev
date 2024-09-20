@@ -74,7 +74,10 @@ using StockManagement.ConsolUI2.Service;
 //productService.GetAllProductsOrderByDescendingName();
 
 CategoryService categoryService = new CategoryService();
+categoryService.GetAll();
 categoryService.GetById(3);
+Category category = new Category();
+categoryService.Add(category);
 
 
 
